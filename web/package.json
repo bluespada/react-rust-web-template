@@ -1,0 +1,29 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "type": "module",
+  "repository": "https://github.com/bluespada/react-rust-web-template.git",
+  "author": "bluespada <pentingmain@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "vite start"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "sass": "^1.71.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4",
+    "vite-plugin-pwa": "^0.19.2"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.0.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
