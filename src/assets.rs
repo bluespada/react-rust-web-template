@@ -18,5 +18,11 @@ pub fn handle_assets(path: &str) -> HttpResponse {
 }
 
 pub async fn handler(path: web::Path<String>) -> HttpResponse {
-    handle_assets(path.as_str())
+    let h = handle_assets(path.as_str());
+    // currently i do like this to prevent 404 rendered
+    if h.status().as_u16() == 404 {
+        handle_assets("index.html")
+    } else {
+        handle_assets(path.as_str())
+    }
 }
