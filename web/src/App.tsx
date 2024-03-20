@@ -49,8 +49,8 @@ export default function App(){
                         <h3>Getting Started</h3>
                     </div>
                     <div style={{paddingTop: ".5rem", display:"flex", flexDirection: "row", gap: ".85rem"}}>
-                        <a href="https://actix.rs/doc">Actix</a>
-                        <a href="https://vitejs.dev/">Vite</a>
+                        <a href="https://actix.rs/docs" target="_">Actix</a>
+                        <a href="https://vitejs.dev/" target="_">Vite</a>
                     </div>
                     <div style={{paddingTop: ".5rem", display:"flex", flexDirection: "row", gap: ".85rem"}}>
                         <a href="https://www.rust-lang.org/" target="_">Learn about rust</a>
